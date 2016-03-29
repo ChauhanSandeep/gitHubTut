@@ -1,0 +1,66 @@
+git --version (to find the version of git installed in system)
+
+git config --global user.name "Sandeep Chauhan"		(used to configure the user name)
+
+git config --global user.email "schauhan346@gmail.com"	(to configure the user email)
+
+git config --list		(list hte user name and email)
+
+git config --user.email		(just the email)
+
+git config --user.name		(just the user name)
+
+git init 		(make the current folder workable for git)
+
+git add .		(add all the file in folder to the staging area)//not a commit
+
+git add filename		(add the filename to staging area)
+
+git commit -m "message for recall purpose"    (commit the git)
+
+git commit -am "message for recall"		(commit without staging, will commit all the files in the working directory)
+
+git log 	(used to see all the commits)
+
+git log --pretty=oneline	(see all the commits briefly)
+
+git log --author="name"		(display the commits by name)
+
+git status		(shows the files which are not commited, modified)
+
+git diff 		(this shows the difference in the repository and file in the working file (not staging area))
+
+git diff --staged 	(this shows the difference between repository and the staging area) 
+
+git checkout -- filename.html		(checkout take filename from repository and make it working file)
+
+git checkout commitID -- filename.html	(get old version of filename from git repo, remember to commit after this)
+
+git reset HEAD filename.html		(unstage the file before commiting)
+
+git remote add githubNickName  http://github.com/username/repositoryName		(setup a remote connections, link the url to githubNickName)
+
+git remote		(shows the remote git projects)
+
+git push -u githubNickName master 	(push all the files to githubNickName repo)
+
+git clone http://github.com/ChauhanSandeep/reponame.git		(clone file from github to local)
+
+git pull 		(pull the changes in the file)
+
+git config --global user.name "ChauhanSandeep"
+git config --global user.email "schauhan346@gmail.com"
+
+ git branch newFileName
+ 
+ checkout branchName
+ 
+ git push origin branchName			(will push the branch to the github, it will now show two branches)
+ 
+ git branch		(show the branch)
+ 
+ git merge branchName			while you are in master(merge the master with branch)
+ 
+ git branch -d branchName		(will delete the branch)
+ 
+ dont commit a sensitive file rather create .gitignore file and write the name of sensitive file in .gitignore file. now commit .gitignore file.
