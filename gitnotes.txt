@@ -49,7 +49,7 @@ git clone http://github.com/ChauhanSandeep/reponame.git		(clone file from github
 git pull 		(pull the changes in the file)
 
 git config --global user.name "ChauhanSandeep"
-git config --global user.email "schauhan346@gmail.com"
+git config --global user.email "mailid@gmail.com"
 
  git branch newFileName
  
