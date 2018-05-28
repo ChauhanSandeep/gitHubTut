@@ -1,4 +1,4 @@
-git --version (to find the version of git installed in system)
+git --version (that is used for finding the version of git installed in system)
 
 git config --global user.name "Sandeep Chauhan"		(used to configure the user name)
 
